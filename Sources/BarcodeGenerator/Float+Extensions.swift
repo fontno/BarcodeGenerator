@@ -22,4 +22,14 @@ extension Float {
         
         return clamped
     }
+    
+    /// Prevents Self from going below the minimum value.
+    /// If Self is lower than min value, the min value is returned.
+    /// - Parameters:
+    ///   - minValue: the minimum value allowed.
+    /// - Returns: Float
+    ///
+    func floor(min minValue: Float) -> Float {
+        return max(self, minValue)
+    }
 }
