@@ -7,5 +7,5 @@ Swift package to easily generate barcodes in your SwiftUI projects
   - [ ] example image
 - [x] PDF417 Barcode 
   - [ ] example image
-- [ ] Aztec Barcode 
+- [x] Aztec Barcode 
   - [ ] example image
